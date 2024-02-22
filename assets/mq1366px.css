@@ -10,6 +10,7 @@
     background: #e0e1dd;
 }
 
+@media (max-width: 1366px) and (min-width: 500px){
 /* Menu */
 .header{
     position: fixed;
@@ -179,6 +180,12 @@ main{
     transition: 0.3s;
 }
 
+#footer a{
+    text-decoration: none;
+    color: #E0E1DD;
+}
+
 #footer a:visited{
     color: #E0E1DD;
+}
 }
