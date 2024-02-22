@@ -1,0 +1,179 @@
+@media (max-width: 1920px) and (min-width: 1366px){
+    /* Menu */
+    .header{
+        position: fixed;
+        width: 6vw;
+        height: 100vh;
+        background: #0D1B2A;
+        display: flex;
+        transition: width 0.3s;
+    }
+    
+    .header nav{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+    
+    .header li{
+        padding: 10px 30px 10px 0px;
+        width: 75%;
+        margin: 20px 0px 30px 10px;
+        border-radius: 15px;
+    }
+    
+    .header li:hover{
+        background-color: #778da9;
+        transition: .5s;
+        transform: scale(1.05);
+    }
+    
+    .header a{
+        padding: 20px 50px 10px 15px;
+    }
+    
+    .header i{
+        font-size: 50px;
+        color: aliceblue;
+    }
+    
+    .dplNone{
+        display: none;
+        position: relative;
+        bottom: 10px;
+        font-size: 15px;
+        margin-left: 10px;
+        transition: 10s ease;
+    }
+    
+    /* Perfil */
+    main{
+        margin-left: 10%;
+        width: 100vw;
+        height: auto;
+        transition:0.3s;
+        color: #424242;
+    }
+    .sectionPerfil{
+        margin: 30px 0 0 0;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .sectionPerfil img{
+        width: 330px;
+        height: 330px;
+        border-radius: 50%;
+        border: #0D1B2A 3px solid;
+    }
+    
+    .infoPerfil {
+        color: #E0E1DD;
+        margin: 10px 0 0 50px;
+        padding: 25px;
+        max-width: 550px;
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
+        text-shadow: 2px 2px 1px black ;
+    }
+    
+    .infoPerfil::before {
+        content: ""; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('./img/img_capa_perfil.jpg') center/cover;
+        filter: opacity(80%) blur(3px);
+        z-index: -1;
+        border-radius: 20px;
+    }
+    
+    
+    .infoPerfil h4{
+        margin-top: 10px;
+    }
+    
+    .divEditarPerfil button{
+        background-color: #0D1B2A;
+        color: #E0E1DD;
+        box-shadow: #0D1B2A 2px 2px 5px;
+        margin: 15px 5px 0px 0px;
+        padding: 10px 15px;
+        border-radius: 13px;
+        cursor: pointer;
+    }
+    
+    .divEditarPerfil button:hover{
+        transition: 0.3s;
+        background-color: #778DA9;
+    }
+    
+    .sectionPerfilDois{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .sectionPerfilDois p{
+        margin-top: 30px;
+    }
+    
+    .sectionPerfilDois a{
+        text-decoration: none;
+        color: #424242;;
+    }
+    
+    .sectionPerfilDois a:hover{
+        text-decoration: underline;
+    }
+    
+    /* Publicações */
+    .publicacoes{
+        margin: 20px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .publicacoes img{
+        width: 400px;
+        height: 400px;
+        margin: 10px;
+        border: 1px #778DA9 solid;
+    }
+    .publicacoes img:hover{
+        transform: scale(1.07);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    #footer{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5% 0 10%;
+        background-color: #0D1B2A;
+        color: #E0E1DD;
+        transition: 0.3s;
+    }
+    
+    #footer a{
+        text-decoration: none;
+        color: #E0E1DD;
+    }
+    #footer a:visited{
+        color: #E0E1DD;
+    }
+    }
