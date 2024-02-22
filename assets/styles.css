@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+.body{
+    display: flex;
+}
+
+/* Menu */
+.header{
+    width: 5vw;
+    height: 100vh;
+    background: red;
+    display: flex;
+}
+
+.header nav{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.header li{
+    margin: 50px 0px;
+}
+
+.header a{
+    background: green;
+}
+
+/* Perfil */
+.sectionPerfil{
+    margin: 30px 0 0 -60px;
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionPerfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: black 2px solid;
+}
+
+.infoPerfil{
+    margin: 20px 0 0 50px
+}
