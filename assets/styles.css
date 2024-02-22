@@ -106,7 +106,7 @@ main{
     width: 100%;
     height: 100%;
     background: url('./img/img_capa_perfil.jpg') center/cover;
-    filter: blur(2px);
+    filter: opacity(80%) blur(3px);
     z-index: -1;
     border-radius: 20px;
 }
