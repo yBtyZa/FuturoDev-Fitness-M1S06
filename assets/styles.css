@@ -12,11 +12,11 @@
 
 /* Menu */
 .header{
-    width: 5vw;
+    width: 6vw;
     height: 100vh;
     background: #0d1b2a;
     display: flex;
-
+    transition: width 0.3s;
 }
 
 .header nav{
@@ -32,7 +32,14 @@
     flex-direction: column;}
 
 .header li{
-    margin: 30px 0px 30px 5px;
+    padding: 3px 3px 3px 0px;
+    margin: 30px 0px 30px 10px;
+    border-radius: 15px;
+}
+.header li:hover{
+    background-color: #778da9;
+    transition: .5s;
+    transform: scale(1.05);
 }
 
 .header a{
@@ -44,13 +51,23 @@
     color: aliceblue;
 }
 
+.dplNone{
+    display: none;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    transition: 10s ease;
+}
+
 /* Perfil */
 .sectionPerfil{
     margin: 30px 0 0 0;
-    width: 95vw;
+    width: 94vw;
     height: 95vh;
     display: flex;
     justify-content: center;
+    transition: width 0.3s;
 }
 
 .sectionPerfil img{
@@ -61,6 +78,5 @@
 }
 
 .infoPerfil{
-
     margin: 20px 0 0 50px
 }
