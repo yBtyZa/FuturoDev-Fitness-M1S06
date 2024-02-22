@@ -30,7 +30,8 @@
 .header ul{
     display: flex;
     list-style: none;
-    flex-direction: column;}
+    flex-direction: column;
+}
 
 .header li{
     padding: 3px 3px 3px 0px;
@@ -38,6 +39,7 @@
     margin: 20px 0px 30px 10px;
     border-radius: 15px;
 }
+
 .header li:hover{
     background-color: #778da9;
     transition: .5s;
