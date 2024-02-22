@@ -66,7 +66,7 @@
 main{
     margin-left: 10%;
     width: 100vw;
-    height: 185vh;
+    height: auto;
     transition:0.3s;
     color: #424242;
 }
@@ -84,10 +84,31 @@ main{
     border: #0D1B2A 3px solid;
 }
 
-.infoPerfil{
-    margin: 20px 0 0 50px;
-    max-width: 500px;
+.infoPerfil {
+    color: #E0E1DD;
+    margin: 10px 0 0 50px;
+    padding: 25px;
+    max-width: 550px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    text-shadow: 2px 2px 1px black ;
 }
+
+.infoPerfil::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./img/img_capa_perfil.jpg') center/cover;
+    filter: blur(2px);
+    z-index: -1;
+    border-radius: 20px;
+}
+
 
 .infoPerfil h4{
     margin-top: 10px;
@@ -98,7 +119,7 @@ main{
     color: #E0E1DD;
     box-shadow: #0D1B2A 2px 2px 5px;
     margin: 15px 5px 0px 0px;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 13px;
     cursor: pointer;
 }
