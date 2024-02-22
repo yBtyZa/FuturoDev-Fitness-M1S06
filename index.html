@@ -17,29 +17,29 @@
 
 <body>
     <div class="body">
-        <header class="header">
+        <header class="header" id="header" onmouseover="expandirMenu()" onmouseleave="contrairMenu()">
             <nav>
-                <ul>
+                <ul onmouseover="expandirMenu()">
                     <li>
-                        <a href="perfil.html"><i class='bx bx-user'></i></a>
+                        <a href="#"><i class='bx bx-user'><span class="dplNone">Perfil</span></i></a>
                     </li>
                     <li>
-                        <a href="mensagens.html"><i class='bx bx-message-square-dots'></i></a>
+                        <a href=""><i class='bx bx-message-square-dots'><span class="dplNone">Mensagens</span></i></a>
                     </li>
                     <li>
-                        <a href="fotos.html"><i class='bx bx-photo-album'></i></a>
+                        <a href=""><i class='bx bx-photo-album'><span class="dplNone">Fotos</span></i></a>
                     </li>
                     <li>
-                        <a href="configuracoes.html"><i class='bx bx-cog'></i></a>
+                        <a href=""><i class='bx bx-cog'><span class="dplNone">Configurações</span></i></a>
                     </li>
                     <li>
-                        <a href="sair.html"><i class='bx bx-exit' ></i></a>
+                        <a href=""><i class='bx bx-exit'><span class="dplNone">Sair</span></i></a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="sectionPerfil">
+            <section class="sectionPerfil" id="sectionPerfil">
                 <img src="./assets/img/img_perfil.jpg" alt="">
                 <div class="infoPerfil">
                     <h2>Guilherme Betsa</h2>
@@ -51,6 +51,8 @@
             </section>
         </main>
     </div>
+
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
