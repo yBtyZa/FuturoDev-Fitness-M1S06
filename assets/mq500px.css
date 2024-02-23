@@ -1,0 +1,12 @@
+@media (max-width: 500px){
+/* Menu */
+.header{
+    position: relative;
+    top: 0;
+}
+
+.sectionPerfil img{
+    width: 1px;
+    height: 1px;
+}
+}
