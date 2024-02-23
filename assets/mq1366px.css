@@ -73,6 +73,49 @@ main{
     transition:0.3s;
     color: #424242;
 }
+
+.form{
+    margin: 5px 0px 0px 100px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    background-color: #0D1B2A;
+    border-radius: 20px;
+}
+
+.form img{
+    position: relative;
+    top: 4px;
+    right: 170px;
+    cursor: pointer;
+}
+
+.form input{
+    width: 50%;
+    margin: 5px;
+    padding: 3px 10px;
+    border-radius: 10px;
+
+}
+.form i{
+    position: relative;
+    top: 7px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: -1px ;
+}
+
+#horaAtual{
+    width: 170px;
+    color: #E0E1DD;
+    position: relative;
+    bottom: 33px;
+    left: 830px;
+
+}
+
 .sectionPerfil{
     margin: 30px 0 0 0;
     display: flex;
@@ -81,6 +124,7 @@ main{
 }
 
 .sectionPerfil img{
+    margin-top: 20px;
     width: 330px;
     height: 330px;
     border-radius: 50%;
